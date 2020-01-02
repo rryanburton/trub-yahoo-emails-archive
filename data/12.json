@@ -1,0 +1,303 @@
+{
+  "ygPerms": {
+    "resourceCapabilityList": [
+      {
+        "resourceType": "GROUP",
+        "capabilities": [
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WELCOME_MSG"
+          },
+          {
+            "name": "PENDING_COUNT"
+          },
+          {
+            "name": "ACTIVITY_LOGS"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTO",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "COPY"
+          },
+          {
+            "name": "MOVE"
+          },
+          {
+            "name": "UPLOADTEMP"
+          },
+          {
+            "name": "GROUPCOVER"
+          }
+        ]
+      },
+      {
+        "resourceType": "FILE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "AUTO_SEND"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBER",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "EDIT_MODERATOR"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "BAN"
+          }
+        ]
+      },
+      {
+        "resourceType": "LINK",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "MOVE_LINK"
+          }
+        ]
+      },
+      {
+        "resourceType": "CALENDAR",
+        "capabilities": [
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "DATABASE",
+        "capabilities": [
+          {
+            "name": "READ_DATA"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "POLL",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "VOTE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CLOSE"
+          }
+        ]
+      },
+      {
+        "resourceType": "MESSAGE",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PENDING_MESSAGE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "ATTACHMENTS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTOMATIC_ALBUMS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBERSHIP_TYPE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "POST",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "PIN",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "READ"
+          }
+        ]
+      }
+    ],
+    "modStatus": "OWNER",
+    "subStatus": "NORMAL",
+    "groupUrl": "groups.yahoo.com",
+    "intlCode": "us"
+  },
+  "comscore": "pageview_candidate",
+  "ygData": {
+    "userId": 0,
+    "authorName": "Green, David A.",
+    "from": "&quot;Green, David A.&quot; &lt;green@rti.org&gt;",
+    "replyTo": "LIST",
+    "senderId": "0VU2DeCY8LkiMNjbx-CqKc-8xtgW8LOTk18_o8mM5ur5IZqmIDzG3-3syyLEZ73Xv3wNmnpjpah-tRDe-6X8kDbX4JGcuW5r",
+    "spamInfo": {
+      "isSpam": false,
+      "reason": "0"
+    },
+    "subject": "[TRUB] Re: TRUB mtg tonight (10/14)//Advance recipe posting",
+    "postDate": "908368335",
+    "msgId": 12,
+    "canDelete": true,
+    "contentTrasformed": false,
+    "systemMessage": false,
+    "headers": {
+      "messageIdInHeader": "PDBCOTMwNDQzNEZGRkNGMTE4RjQwMDAwMEY4MjIzMTBEMDJBMDdDQUJAY3NjbnRzOS5ydGkub3JnPg=="
+    },
+    "prevInTopic": 0,
+    "nextInTopic": 0,
+    "prevInTime": 11,
+    "nextInTime": 13,
+    "topicId": 12,
+    "numMessagesInTopic": 1,
+    "msgSnippet": "#295 1.6 kg Brewmaker Internaional Range Dortmunder Style Lager Kit 0.9 kg Muntons Extra Light DME, color 5EBC, Lovibond 2.3 1/2 cup Breiss 90 L crystal malt ",
+    "rawEmail": "Delivered-To: listsaver-of-trub@egroups.com\r\nMailing-List: contact trub-owner@egroups.com\r\nPrecedence: list\r\nX-URL: http://www.egroups.com/list/trub/\r\nX-Mailing-List: trub@egroups.com\r\nReply-To: trub@egroups.com\r\nDelivered-To: listsaver-egroups-trub@egroups.com\r\nReceived: (qmail 23736 invoked by uid 7770); 14 Oct 1998 12:33:04 -0000\r\nReceived: from cscnts15.rti.org (152.5.129.37)\n  by vault.findmail.com with SMTP; 14 Oct 1998 12:33:04 -0000\r\nReceived: by cscnts15.rti.org with Internet Mail Service (6.0.2102.0)\n\tid &lt;3Y56BV4X&gt;; Wed, 14 Oct 1998 08:32:26 -0400\r\nMessage-ID: &lt;0B9304434FFFCF118F400000F822310D02A07CAB@cscnts9.rti.org&gt;\r\nFrom: &quot;Green, David A.&quot; &lt;green@rti.org&gt;\r\nTo: &quot;&#39;trub@egroups.com&#39;&quot; &lt;trub@egroups.com&gt;\r\nDate: Wed, 14 Oct 1998 08:32:15 -0400\r\nMIME-Version: 1.0\r\nX-Mailer: Internet Mail Service (6.0.2102.0)\r\nSubject: [TRUB] Re: TRUB mtg tonight (10/14)//Advance recipe posting\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: 7bit\r\n\r\n#295\n1.6 kg Brewmaker Internaional Range Dortmunder Style Lager Kit\n0.9 kg Muntons Extra Light DME, color 5EBC, Lovibond 2.3\n1/2 cup Breiss 90 L crystal malt\n14 g Nugget pellets, 13.0 aa, 30 minutes\n14 g Saaz pellets, added after boil\nTOC yeast\n\nBottles 9/28/98\n3/4 cup corn sugar\nNominal Yield 4.97 gal\n\nDG\n------------------------------------------------------------------------ZZZXXXZZZ\nSubscribe, unsubscribe, opt for a daily digest, or start a new e-group\nat http://www.eGroups.com -- Free Web-based e-mail groups.\n\n"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "ygPerms": {
+    "resourceCapabilityList": [
+      {
+        "resourceType": "GROUP",
+        "capabilities": [
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WELCOME_MSG"
+          },
+          {
+            "name": "PENDING_COUNT"
+          },
+          {
+            "name": "ACTIVITY_LOGS"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTO",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "COPY"
+          },
+          {
+            "name": "MOVE"
+          },
+          {
+            "name": "UPLOADTEMP"
+          },
+          {
+            "name": "GROUPCOVER"
+          }
+        ]
+      },
+      {
+        "resourceType": "FILE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "AUTO_SEND"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBER",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "EDIT_MODERATOR"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "BAN"
+          }
+        ]
+      },
+      {
+        "resourceType": "LINK",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "MOVE_LINK"
+          }
+        ]
+      },
+      {
+        "resourceType": "CALENDAR",
+        "capabilities": [
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "DATABASE",
+        "capabilities": [
+          {
+            "name": "READ_DATA"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "POLL",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "VOTE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CLOSE"
+          }
+        ]
+      },
+      {
+        "resourceType": "MESSAGE",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PENDING_MESSAGE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "ATTACHMENTS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTOMATIC_ALBUMS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBERSHIP_TYPE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "POST",
+        "capabilities": [
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPDATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PIN",
+        "capabilities": [
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          }
+        ]
+      }
+    ],
+    "modStatus": "OWNER",
+    "subStatus": "NORMAL",
+    "groupUrl": "groups.yahoo.com",
+    "intlCode": "us"
+  },
+  "comscore": "pageview_candidate",
+  "ygData": {
+    "userId": 0,
+    "authorName": "Dedpetvet@aol.com",
+    "from": "Dedpetvet@aol.com",
+    "replyTo": "LIST",
+    "senderId": "PthF34sF2MgTYvztj51QuJE_jIcoWzJORxznasxDEAAy1Nus36uFblR0Fu-8PgarbAZRWCuYxWs",
+    "spamInfo": {
+      "isSpam": false,
+      "reason": "0"
+    },
+    "subject": "[TRUB] Re: Oatmeal Stout",
+    "postDate": "908389059",
+    "msgId": 15,
+    "canDelete": true,
+    "contentTrasformed": false,
+    "systemMessage": false,
+    "headers": {
+      "messageIdInHeader": "PDNlNWJkNDY5LjM2MjRlYWMzQGFvbC5jb20+"
+    },
+    "prevInTopic": 13,
+    "nextInTopic": 16,
+    "prevInTime": 14,
+    "nextInTime": 16,
+    "topicId": 8,
+    "numMessagesInTopic": 8,
+    "msgSnippet": "In a message dated 10/14/98 10:51:27 AM Eastern Daylight Time, kevin@psych.duke.edu writes: ",
+    "rawEmail": "Delivered-To: listsaver-of-trub@egroups.com\r\nMailing-List: contact trub-owner@egroups.com\r\nPrecedence: list\r\nX-URL: http://www.egroups.com/list/trub/\r\nX-Mailing-List: trub@egroups.com\r\nReply-To: trub@egroups.com\r\nDelivered-To: listsaver-egroups-trub@egroups.com\r\nReceived: (qmail 4769 invoked by uid 7770); 14 Oct 1998 18:18:59 -0000\r\nReceived: from imo28.mx.aol.com (198.81.17.72)\n  by vault.findmail.com with SMTP; 14 Oct 1998 18:18:59 -0000\r\nReceived: from Dedpetvet@aol.com\n\tby imo28.mx.aol.com (IMOv16.10) id GOGZa02082\n\t for &lt;trub@egroups.com&gt;; Wed, 14 Oct 1998 14:17:39 -0400 (EDT)\r\nFrom: Dedpetvet@aol.com\r\nMessage-ID: &lt;3e5bd469.3624eac3@aol.com&gt;\r\nDate: Wed, 14 Oct 1998 14:17:39 EDT\r\nTo: trub@egroups.com\r\nMime-Version: 1.0\r\nX-Mailer: AOL 4.0 for Windows 95 sub 214\r\nSubject: [TRUB] Re: Oatmeal Stout\r\nContent-Type: text/plain; charset=US-ASCII\r\nContent-Transfer-Encoding: 7bit\r\n\r\nIn a message dated 10/14/98 10:51:27 AM Eastern Daylight Time,\nkevin@psych.duke.edu writes:\n\n&lt;&lt; \n When I do a beta glucan rest (which is whenever I use oats, or lots \n of wheat, for the reasons Bill mentions) I do it at 104 degrees F\n for 30 minutes.  This has always worked well for me.  I&#39;ve been \n told that some microbreweries do a rest at 104 degress for as much\n as three hours.  I use 104 for the first rest based on the\n recommendations of George Fix, author of several brewing textbooks, who\n vociferously advocates a 40-60-70 Celsius schedule (104-140-158 F, \n 30 mins at each). &gt;&gt;\nThe temp of 120 F. is from Michael Lewis&#39;s book on Stout.  I think that beta\ngluconase has a wide temp range.  The advantage of the 120 is that you are in\nthe prime area for protein digestion too.  Kevin, you seem to have\nconsiderable experience with beta-gluconase.  Doese it remove the silky mouth\nfeel?\n\nBill  MacK\n------------------------------------------------------------------------ZZZXXXZZZ\nSubscribe, unsubscribe, opt for a daily digest, or start a new e-group\nat http://www.eGroups.com -- Free Web-based e-mail groups.\n\n"
+  }
+}

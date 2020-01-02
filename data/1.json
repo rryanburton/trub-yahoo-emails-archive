@@ -1,0 +1,303 @@
+{
+  "ygPerms": {
+    "resourceCapabilityList": [
+      {
+        "resourceType": "GROUP",
+        "capabilities": [
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WELCOME_MSG"
+          },
+          {
+            "name": "PENDING_COUNT"
+          },
+          {
+            "name": "ACTIVITY_LOGS"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTO",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "COPY"
+          },
+          {
+            "name": "MOVE"
+          },
+          {
+            "name": "UPLOADTEMP"
+          },
+          {
+            "name": "GROUPCOVER"
+          }
+        ]
+      },
+      {
+        "resourceType": "FILE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "AUTO_SEND"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBER",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "EDIT_MODERATOR"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "BAN"
+          }
+        ]
+      },
+      {
+        "resourceType": "LINK",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "MOVE_LINK"
+          }
+        ]
+      },
+      {
+        "resourceType": "CALENDAR",
+        "capabilities": [
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "DATABASE",
+        "capabilities": [
+          {
+            "name": "READ_DATA"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "POLL",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "VOTE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CLOSE"
+          }
+        ]
+      },
+      {
+        "resourceType": "MESSAGE",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PENDING_MESSAGE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "ATTACHMENTS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTOMATIC_ALBUMS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBERSHIP_TYPE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "POST",
+        "capabilities": [
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PIN",
+        "capabilities": [
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          }
+        ]
+      }
+    ],
+    "modStatus": "OWNER",
+    "subStatus": "NORMAL",
+    "groupUrl": "groups.yahoo.com",
+    "intlCode": "us"
+  },
+  "comscore": "pageview_candidate",
+  "ygData": {
+    "userId": 0,
+    "authorName": "Gary Clayton",
+    "from": "&quot;Gary Clayton&quot; &lt;garyclayton@mindspring.com&gt;",
+    "replyTo": "LIST",
+    "senderId": "yzbHe_bDecQQCjJ7587n4Gshqrvaux40QBmOt5gtLcxP5rssN3ckuCdAOfVFBx3A5MuGF3n_EWKC5E8ueYCWzpSIA-OYWbjBj5Oe3WGJ0jLiww",
+    "spamInfo": {
+      "isSpam": false,
+      "reason": "0"
+    },
+    "subject": "[TRUB] This is the TRUB mailing list!",
+    "postDate": "908162282",
+    "msgId": 1,
+    "canDelete": true,
+    "contentTrasformed": false,
+    "systemMessage": false,
+    "headers": {
+      "messageIdInHeader": "PDE5OTgxMDEyMDMxODAyLjEyNzAzLnFtYWlsQGZpbmRtYWlsLmNvbT4="
+    },
+    "prevInTopic": 0,
+    "nextInTopic": 0,
+    "prevInTime": 0,
+    "nextInTime": 2,
+    "topicId": 1,
+    "numMessagesInTopic": 1,
+    "msgSnippet": "This is the TRUB mailing list. If you are reading this then you have successfully subscribed! Congratulations, have yourself a beer. -Gary ... Free e-mail",
+    "rawEmail": "Delivered-To: listsaver-of-trub@egroups.com\r\nMailing-List: contact trub-owner@egroups.com\r\nPrecedence: list\r\nX-URL: http://www.egroups.com/list/trub/\r\nX-Mailing-List: trub@egroups.com\r\nReply-To: trub@egroups.com\r\nDelivered-To: listsaver-egroups-trub@egroups.com\r\nReceived: (qmail 13823 invoked by uid 7770); 12 Oct 1998 03:15:06 -0000\r\nReceived: from m5.findmail.com (HELO findmail.com) (209.185.96.141)\n  by vault.findmail.com with SMTP; 12 Oct 1998 03:15:06 -0000\r\nReceived: (qmail 12704 invoked by uid 505); 12 Oct 1998 03:18:02 -0000\r\nDate: 12 Oct 1998 03:18:02 -0000\r\nMessage-ID: &lt;19981012031802.12703.qmail@findmail.com&gt;\r\nReceived: from 209.86.164.44 (via http) from &lt;garyclayton@mindspring.com&gt; to list &quot;trub&quot;\r\nFrom: &quot;Gary Clayton&quot; &lt;garyclayton@mindspring.com&gt;\r\nTo: trub@egroups.com\r\nSubject: [TRUB] This is the TRUB mailing list!\r\nContent-Type: text/plain\r\n\r\nThis is the TRUB mailing list.\nIf you are reading this then you have successfully subscribed!\nCongratulations, have yourself a beer.\n\n-Gary\n\n-----\nFree e-mail group hosting at http://www.eGroups.com/\n______________________________________________________________________\n\nSubscribe, unsubscribe, opt for a daily digest, or start a new e-group\nat http://www.eGroups.com -- Free Web-based e-mail groups.\n\n"
+  }
+}

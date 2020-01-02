@@ -1,0 +1,304 @@
+{
+  "ygPerms": {
+    "resourceCapabilityList": [
+      {
+        "resourceType": "GROUP",
+        "capabilities": [
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WELCOME_MSG"
+          },
+          {
+            "name": "PENDING_COUNT"
+          },
+          {
+            "name": "ACTIVITY_LOGS"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTO",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "COPY"
+          },
+          {
+            "name": "MOVE"
+          },
+          {
+            "name": "UPLOADTEMP"
+          },
+          {
+            "name": "GROUPCOVER"
+          }
+        ]
+      },
+      {
+        "resourceType": "FILE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "AUTO_SEND"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBER",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "EDIT_MODERATOR"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "BAN"
+          }
+        ]
+      },
+      {
+        "resourceType": "LINK",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "MOVE_LINK"
+          }
+        ]
+      },
+      {
+        "resourceType": "CALENDAR",
+        "capabilities": [
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "DATABASE",
+        "capabilities": [
+          {
+            "name": "READ_DATA"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "POLL",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "VOTE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "CLOSE"
+          }
+        ]
+      },
+      {
+        "resourceType": "MESSAGE",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PENDING_MESSAGE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "ATTACHMENTS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "DELETE"
+          }
+        ]
+      },
+      {
+        "resourceType": "PHOTOMATIC_ALBUMS",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "UPLOAD"
+          }
+        ]
+      },
+      {
+        "resourceType": "MEMBERSHIP_TYPE",
+        "capabilities": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          }
+        ]
+      },
+      {
+        "resourceType": "POST",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "READ"
+          }
+        ]
+      },
+      {
+        "resourceType": "PIN",
+        "capabilities": [
+          {
+            "name": "CREATE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "UPDATE"
+          },
+          {
+            "name": "READ"
+          }
+        ]
+      }
+    ],
+    "modStatus": "OWNER",
+    "subStatus": "NORMAL",
+    "groupUrl": "groups.yahoo.com",
+    "intlCode": "us"
+  },
+  "comscore": "pageview_candidate",
+  "ygData": {
+    "userId": 0,
+    "authorName": "Kevin Myers",
+    "from": "Kevin Myers &lt;kevin@psych.duke.edu&gt;",
+    "replyTo": "LIST",
+    "senderId": "L7ouXRQo1MJdi2O7q04e20jmxbMWV1rhJn0c1dM0OZIyMcn-JLdX1peCVVaHTLitYN4rdA7PV7Yaes8GGD-l51oBHoSyaGRDPQ",
+    "spamInfo": {
+      "isSpam": false,
+      "reason": "0"
+    },
+    "subject": "[TRUB] mash rests (was: Oatmeal Stout)",
+    "postDate": "908393825",
+    "msgId": 16,
+    "canDelete": true,
+    "contentTrasformed": false,
+    "systemMessage": false,
+    "headers": {
+      "messageIdInHeader": "PFBpbmUuU1VOLjMuOTUuOTgxMDE0MTUyNDE3LjExMTlCLTEwMDAwMEBwaWdlb24+",
+      "inReplyToHeader": "PDNlNWJkNDY5LjM2MjRlYWMzQGFvbC5jb20+"
+    },
+    "prevInTopic": 15,
+    "nextInTopic": 17,
+    "prevInTime": 15,
+    "nextInTime": 17,
+    "topicId": 8,
+    "numMessagesInTopic": 8,
+    "msgSnippet": "... I don t want to pretend I know more than I really do (people start to take you real seriously when you use lots of words that end in -ase ;-) and",
+    "rawEmail": "Delivered-To: listsaver-of-trub@egroups.com\r\nMailing-List: contact trub-owner@egroups.com\r\nPrecedence: list\r\nX-URL: http://www.egroups.com/list/trub/\r\nX-Mailing-List: trub@egroups.com\r\nReply-To: trub@egroups.com\r\nDelivered-To: listsaver-egroups-trub@egroups.com\r\nReceived: (qmail 3868 invoked by uid 7770); 14 Oct 1998 19:37:18 -0000\r\nReceived: from pigeon.psych.duke.edu (152.3.21.1)\n  by vault.findmail.com with SMTP; 14 Oct 1998 19:37:18 -0000\r\nReceived: from localhost (kevin@localhost) by pigeon.psych.duke.edu (8.7.5/8.7.3) with SMTP id PAA01225 for &lt;trub@egroups.com&gt;; Wed, 14 Oct 1998 15:37:05 -0400 (EDT)\r\nDate: Wed, 14 Oct 1998 15:37:05 -0400 (EDT)\r\nFrom: Kevin Myers &lt;kevin@psych.duke.edu&gt;\r\nX-Sender: kevin@pigeon\r\nTo: trub@egroups.com\r\nIn-Reply-To: &lt;3e5bd469.3624eac3@aol.com&gt;\r\nMessage-ID: &lt;Pine.SUN.3.95.981014152417.1119B-100000@pigeon&gt;\r\nMIME-Version: 1.0\r\nSubject: [TRUB] mash rests (was: Oatmeal Stout)\r\nContent-Type: text/plain; charset=US-ASCII\r\nContent-Transfer-Encoding: 7bit\r\n\r\n\n\nOn Wed, 14 Oct 1998 Dedpetvet@aol.com wrote:\n&gt; The temp of 120 F. is from Michael Lewis&#39;s book on Stout.  I think that beta\n&gt; gluconase has a wide temp range.  The advantage of the 120 is that you are in\n&gt; the prime area for protein digestion too.  Kevin, you seem to have\n&gt; considerable experience with beta-gluconase.  Doese it remove the silky mouth\n&gt; feel?\n\nI don&#39;t want to pretend I know more than I really do (people\nstart to take you real seriously when you use lots of words\nthat end in &quot;-ase&quot; ;-) and unfortunately I&#39;ve never gone to\nthe trouble of brewing the same recipe with and without a\nrest at 104.  So what I can tell you is this: for the last oatmeal\nstout I brewed I used both wheat and oats, and did a rest at\n104 and skipped the protein rest.  It was perfectly silky, which I\nattribute to a dextrin-promoting saccharification rest at around 158.\n\nSome other tidbits: it is correct that beta glucanase has a wide\nrange of activity, and is still active in the 120-125 degree range.\nHowever, in this temp range (where many people do there protein\nrests), your peptidases are active, munching small proteins.\nThis is what you want to use when you&#39;re using lots of starch\nadjuncts, because you need those peptides to act as yeast nutrients.\nWhen you use all malt, you have plenty of yeast nutrient, and those\npeptidases may actually be working against you by munching &quot;friendly&quot;\nhead-promoting proteins.  So, when I&#39;m not using starch adjuncts and \nthink I need a protein rest, I do the protein rest at 135, where the\nproteases are more active than the peptidases, breaking down the larger\nhaze-promoting proteins but not smaller head-promoting proteins.\n\nDisclaimer:  I got a B- in college biology.  I&#39;m largely\nparroting what I&#39;ve read in Fix and in Papazian and from the\ncollective wisdom of rec.crafts.brewing.  I may have gotten a few\nterms mixed up, but I believe the gist of this to be accurate.\nOh, and I don&#39;t really believe that any proteins are inherently\nmore &quot;friendly&quot; than any other proteins.\n\nKevin.\n\n------------------------------------------------------------------------ZZZXXXZZZ\nSubscribe, unsubscribe, opt for a daily digest, or start a new e-group\nat http://www.eGroups.com -- Free Web-based e-mail groups.\n\n"
+  }
+}

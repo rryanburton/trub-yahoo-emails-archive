@@ -1,3 +1,12 @@
 from django.db import models
 
-# Create your models here.
+
+class TrubEmail(models.Model):
+    rawEmail = models.TextField()
+
+    class Meta:
+        verbose_name = 'Email'
+        verbose_name_plural = 'Emails'
+
+    def __str__(self):
+        return self.pk
