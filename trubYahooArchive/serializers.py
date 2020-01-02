@@ -8,8 +8,9 @@ from .models import (
 class EmailSerializer(serializers.ModelSerializer):
     class Meta:
         model = TrubEmail
-        fields = ('rawEmail',
-                  )
+        # fields = ('rawEmail',
+        #           )
+        fields = '__all__'
 
 
 class EmailViewSet(viewsets.ModelViewSet):

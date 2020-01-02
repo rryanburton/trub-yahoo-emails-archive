@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('import/', include('trubYahooArchive.urls'))
+    path('', include('trubYahooArchive.urls'))
 ]

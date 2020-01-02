@@ -9,4 +9,4 @@ class TrubEmail(models.Model):
         verbose_name_plural = 'Emails'
 
     def __str__(self):
-        return self.pk
+        return str(self.pk)
