@@ -6,6 +6,9 @@ from .models import (
 
 
 class EmailSerializer(serializers.ModelSerializer):
+    sender = 'from'
+
+
     class Meta:
         model = TrubEmail
         # fields = ('rawEmail',

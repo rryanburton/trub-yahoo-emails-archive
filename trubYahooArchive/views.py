@@ -1,7 +1,9 @@
 import json
 import os
+from html import unescape
 
 from django.shortcuts import render
+from django.utils.html import escape
 from django.views.generic import ListView
 
 from trubYahooArchive.models import TrubEmail
@@ -23,8 +25,10 @@ def parse_json(request):
                 # fail_list = ""
                 data = data.get('ygData')
                 rawmsg = data.get('rawEmail')
-                print(type(rawmsg))
                 splitlines = rawmsg.splitlines()
+                # for item in splitlines:
+                #     print(unescape(item))
+
                 print("data loaded: {}, starting serializer".format(splitlines))
 
                 # for thing in data:

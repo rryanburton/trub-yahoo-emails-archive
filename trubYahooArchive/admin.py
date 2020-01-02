@@ -5,7 +5,17 @@ from trubYahooArchive.models import TrubEmail
 
 
 class TrubEmailadmin(ModelAdmin):
-    list_display = ('id', 'rawEmail')
+    list_display = ('id',
+                    'authorName',
+                    'sender',
+                    'replyTo',
+                    'subject',
+                    'postDate',
+                    'msgId',
+                    'topicId',
+                    'msgSnippet',
+                    'rawEmail',
+                    )
 
 
 admin.site.register(TrubEmail, TrubEmailadmin)
