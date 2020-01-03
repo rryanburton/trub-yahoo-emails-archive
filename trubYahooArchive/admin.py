@@ -8,13 +8,12 @@ class TrubEmailadmin(ModelAdmin):
     list_display = ('id',
                     'authorName',
                     'sender',
-                    'replyTo',
                     'subject',
                     'postDate',
                     'msgId',
                     'topicId',
                     'msgSnippet',
-                    'rawEmail',
+                    # 'rawEmail',
                     )
 
 

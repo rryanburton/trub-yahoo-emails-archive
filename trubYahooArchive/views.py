@@ -3,8 +3,9 @@ import os
 from html import unescape
 
 from django.shortcuts import render
+from django.utils.datetime_safe import datetime
 from django.utils.html import escape
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 
 from trubYahooArchive.models import TrubEmail
 from trubYahooArchive.serializers import EmailSerializer
@@ -24,21 +25,25 @@ def parse_json(request):
                 # count = 0
                 # fail_list = ""
                 data = data.get('ygData')
+                data['sender'] = unescape(data.pop('from'))
+                data['postDate'] = datetime.fromtimestamp(int(data.pop('postDate')))
+                # data['']
                 rawmsg = data.get('rawEmail')
                 splitlines = rawmsg.splitlines()
                 # for item in splitlines:
                 #     print(unescape(item))
 
-                print("data loaded: {}, starting serializer".format(splitlines))
+                # print("data loaded: {}, starting serializer".format(splitlines))
 
                 # for thing in data:
                 count += 1
 
                 serializer = EmailSerializer(data=data)
+                # print("fields: {}".format(serializer))
                 if serializer.is_valid():
                     serializer.save()
                     successful += 1
-                    print("ok {}".format(successful))
+                    # print("ok {}".format(successful))
                 else:
                     print("serializer was not valid")
                     # print(person)
@@ -62,3 +67,14 @@ def parse_json(request):
 
 class EmailList(ListView):
     model = TrubEmail
+    ordering = 'postDate'
+
+
+class EmailDetail(DetailView):
+    model = TrubEmail
+
+    def splitlines(self):
+        obj = self.get_object()
+        splitlines = obj.rawEmail.splitlines()
+        return splitlines
+

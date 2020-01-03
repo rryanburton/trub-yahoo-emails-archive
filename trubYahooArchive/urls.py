@@ -18,11 +18,13 @@ from django.urls import path
 
 from .views import (
     parse_json,
-    EmailList)
+    EmailList,
+    EmailDetail
+)
 
 urlpatterns = [
-    path('', EmailList.as_view(), name='email_list'),
+    path('', EmailList.as_view(), name='email-list'),
+    path('email/<int:pk>', EmailDetail.as_view(), name='email-detail'),
     path('importjson', parse_json),
-
 ]
 

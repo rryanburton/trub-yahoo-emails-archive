@@ -1,19 +1,23 @@
+from collections import OrderedDict
+
 from rest_framework import serializers, viewsets
 
 from .models import (
     TrubEmail,
 )
 
-
+#
 class EmailSerializer(serializers.ModelSerializer):
-    sender = 'from'
+
 
 
     class Meta:
         model = TrubEmail
-        # fields = ('rawEmail',
+        # fields = ('rawEmail', 'sender',
         #           )
         fields = '__all__'
+
+
 
 
 class EmailViewSet(viewsets.ModelViewSet):

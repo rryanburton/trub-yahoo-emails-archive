@@ -2,17 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>list</h1>
-<h5>{{ object_list }}</h5>
-<ul>
-    {% for object in object_list %}
+    {% extends 'base.html' %}
+    {% block content %}
+        <div class="container">
+            <h1>emails</h1>
 
-        <li>{{ object.rawEmail|safe }}</li>
-    {% endfor %}
-</ul>
-
-</body>
-</html>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">sender</th>
+                    <th scope="col">subject</th>
+                    <th scope="col">date</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for object in object_list %}
+                    <tr>
+                        <th scope="row"><a href="{{ object.get_absolute_url }}">{{ object.id }}</a>
+                        </th>
+                        <td>{{ object.sender|safe }}</td>
+                        <td>{{ object.subject }}</td>
+                        <td>{{ object.postDate }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% endblock content %}
