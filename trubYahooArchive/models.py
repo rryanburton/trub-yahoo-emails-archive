@@ -8,7 +8,7 @@ class TrubEmail(models.Model):
     sender = models.CharField(max_length=250)
     subject = models.CharField(max_length=250, blank=True, null=True)
     postDate = models.DateTimeField(blank=True, null=True)
-    msgId = models.IntegerField(blank=True, null=True)
+    msgId = models.IntegerField(blank=True, null=True, unique=True)
     topicId = models.IntegerField(blank=True, null=True)
     msgSnippet = models.TextField(blank=True, null=True)
     rawEmail = models.TextField(blank=True, null=True)

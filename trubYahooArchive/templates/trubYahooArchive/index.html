@@ -1,15 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
- <h1>success: {{ successful }}</h1>
+    <h2><a href="{% url 'import-json' %}">Import json</a> </h2>
+        <h2><a href="{% url 'email-list' %}">List of Email</a></h2>
+    <h2></h2>
+    <h2></h2>
+    <h2></h2>
 
- <h1>fail: {{ fails }}</h1>
-
- <h1>count: {{ count }}</h1>
 {% endblock content %}
-{# <h2>data:</h2>#}
-{#<h3>{{ data }}</h3>#}
-{#{% for line in data %}#}
-{#    <span>{{ line|safe }}<br>#}
-{#    </span>#}
-{##}
-{# {% endfor %}#}
+
