@@ -16,16 +16,16 @@ Including another URLconf
 
 from django.urls import path
 
+from .importjson import parse_json
 from .views import (
-    parse_json,
     EmailList,
     EmailDetail,
-    IndexView)
+    IndexView
+)
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index-view'),
     path('emails/', EmailList.as_view(), name='email-list'),
     path('email/<int:pk>', EmailDetail.as_view(), name='email-detail'),
-    path('importjson', parse_json,  name='import-json'),
+    path('importjson', parse_json, name='import-json'),
 ]
-
