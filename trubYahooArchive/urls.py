@@ -20,12 +20,18 @@ from .importjson import parse_json
 from .views import (
     EmailList,
     EmailDetail,
-    IndexView
-)
+    IndexView,
+    SortableEmailList,
+    EmailSearchResultsView,
+    EmailSearchList)
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index-view'),
-    path('emails/', EmailList.as_view(), name='email-list'),
+    path('searchresult/', EmailSearchResultsView.as_view(), name='email-search-results'),
+    # path('emails/', EmailList.as_view(), name='email-list'),
+    path('emailsSort/', SortableEmailList.as_view(), name='sortable-email-list'),
+    path('emailsSearch/', EmailSearchList.as_view(), name='email-search-list'),
+
     path('email/<int:pk>', EmailDetail.as_view(), name='email-detail'),
     path('importjson', parse_json, name='import-json'),
 ]

@@ -2,30 +2,11 @@
 {% load render_paginator %}
 {% block content %}
     <div class="container">
-        <h1>emails</h1>
-
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">MSG ID</th>
-                <th scope="col">sender</th>
-                <th scope="col">subject</th>
-                <th scope="col">date</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for object in object_list %}
-                <tr>
-                    <th scope="row"><a href="{{ object.get_absolute_url }}">{{ object.msgId }}</a>
-                    </th>
-                    <td>{{ object.sender|safe }}</td>
-                    <td>{{ object.subject }}</td>
-                    <td>{{ object.postDate }}</td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+        <h1>Sortable List of Emails</h1>
+{#        {% include 'trubYahooArchive/search_form.html' %}#}
+        {% include 'trubYahooArchive/sortable_links.html' %}
+        {% include 'trubYahooArchive/email_table.html' %}
     </div>
     <div>
-    {% render_paginator 3 %}
+        {% render_paginator 3 %}
 {% endblock content %}

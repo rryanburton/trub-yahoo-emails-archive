@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load render_paginator %}
+{% block content %}
+    <div class="container">
+        <h1>Searchable List of Emails</h1>
+        {% include 'trubYahooArchive/search_form.html' %}<br>
+        <div class="container"> {% include 'trubYahooArchive/email_table.html' %}</div>
+    </div>
+    {% render_paginator 3 %}
+{% endblock content %}

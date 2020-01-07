@@ -1,17 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
-<h2>
-Author: {{ object.authorName }} <br>
-Sender: {{ object.sender }} <br>
-Subject: {{ object.subject }} <br>
-Date: {{ object.postDate }} <br>
-{#rawEmail: {{ view.splitlines }} <br>#}
-</h2>
-{% for line in view.splitlines %}
-    <span>{{ line|safe }}<br>
+    <h2>
+        Author: {{ object.authorName }} <br>
+        Sender: {{ object.sender }} <br>
+        Subject: {{ object.subject }} <br>
+        Date: {{ object.postDate }} <br>
+    </h2>
+    {% for line in view.splitlines %}
+        <span>{{ line|safe }}<br>
     </span>
 
- {% endfor %}
+    {% endfor %}
 
 
 {% endblock content %}
