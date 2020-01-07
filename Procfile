@@ -1,0 +1,1 @@
+web: gunicorn trubArchive.wsgi --log-file -
