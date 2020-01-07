@@ -1,4 +1,6 @@
-django-debug-toolbar
 Django==3.0.2
+gunicorn==19.9.0
+django-heroku==0.3.1
+django-debug-toolbar
 djangorestframework==3.11.0
 git+git://github.com/aptivate/django-sortable-listview.git@f538510467fe0d390596e400c28fc82a9149475f
